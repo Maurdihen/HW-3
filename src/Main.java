@@ -26,13 +26,13 @@ public class Main {
         short f2 = 27897;
         byte g2 = 127;
 
-        byte LP = 23;
-        byte AS = 23;
-        byte EA = 30;
+        byte ludmilaPavlovna = 23;
+        byte annaSergeevna = 23;
+        byte ekaterinaAndreevna = 30;
 
         short frame = 480;
 
-        short sumFrame = (short) (LP + AS + EA);
+        short sumFrame = (short) (ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna);
 
         float res = (float) frame / sumFrame;
 
