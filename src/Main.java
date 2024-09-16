@@ -27,14 +27,14 @@ public class Main {
         byte g2 = 127;
 
         byte ludmilaPavlovna = 23;
-        byte annaSergeevna = 23;
+        byte annaSergeevna = 27;
         byte ekaterinaAndreevna = 30;
 
         short frame = 480;
 
         short sumFrame = (short) (ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna);
 
-        float res = (float) frame / sumFrame;
+        int res = frame / sumFrame;
 
         System.out.println("Результат равен: " + res);
 
